@@ -9,7 +9,7 @@ The goal of this tool is to help querying the *bpost* API easily with PHP.
 
 The tool only requires **PHP 7.0+** and **guzzlehttp/guzzle**.
 
-The easier is to use it via composer/packagist: https://packagist.org/packages/ici-brussels/bpost-addresses
+Use it via composer + packagist: https://packagist.org/packages/ici-brussels/bpost-addresses
 
 ## Usage
 
