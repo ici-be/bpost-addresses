@@ -1,0 +1,7 @@
+{
+    "name": "iciBrussels/Bpost-Addresses",
+    "description": "A php Wrapper for Bpost addresses validation API",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
