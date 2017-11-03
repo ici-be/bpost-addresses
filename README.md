@@ -45,3 +45,8 @@ Array
 )
 */
 ```
+
+## Credits ##
+Created by Bruno Veyckemans ([ici Bruxelles](https://ici.brussels/)). All comments and suggestions welcome !
+Inspired by ([geo6/bpost-batch-validation](https://github.com/geo6/bpost-batch-validation))
+Thanks to Xavier Querriau @ bpost for the API
