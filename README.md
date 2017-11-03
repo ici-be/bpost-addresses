@@ -1,4 +1,4 @@
-# Bpost-Addresses
+# bpost-addresses
 A php wrapper for Bpost addresses validation API
 
 *bpost* ([Belgian Post Group](https://www.bpost.be/)) provides an API to validate belgian address : <https://www.bpost.be/site/en/webservice-address>.
@@ -47,6 +47,6 @@ Array
 ```
 
 ## Credits ##
-Created by Bruno Veyckemans ([ici Bruxelles](https://ici.brussels/)). All comments and suggestions welcome !
-Inspired by ([geo6/bpost-batch-validation](https://github.com/geo6/bpost-batch-validation))
-Thanks to Xavier Querriau @ bpost for the API
+- Created by Bruno Veyckemans ([ici Bruxelles](https://ici.brussels/)). All comments and suggestions welcome !
+- Inspired by ([geo6/bpost-batch-validation](https://github.com/geo6/bpost-batch-validation))
+- Thanks to Xavier Querriau @ bpost for the API
