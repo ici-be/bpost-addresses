@@ -1,12 +1,12 @@
 {
-    "name": "iciBrussels/Bpost-Addresses",
-    "description": "A php Wrapper for Bpost addresses validation API",
+    "name": "ici-brussels/bpost-addresses",
+    "description": "A php wrapper for Bpost addresses validation API",
     "require": {
         "guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
         "psr-4": {
-            "iciBrussels\\Bpost-Addresses\\": "src"
+            "ici-brussels\\bpost-addresses\\": "src"
         }
     }
 }
