@@ -1,12 +1,6 @@
 <?php
 class Bpost_Address_Validation
-{
-      
-  public function __construct() {
-    require_once '../vendor/autoload.php';
-    }
-
-  
+{ 
   public function getAddress_Structurated(string $StreetName, string $StreetNumber, ?string $BoxNumber, int $PostalCode, string $MunicipalityName)
   {
       $client = new GuzzleHttp\Client();
