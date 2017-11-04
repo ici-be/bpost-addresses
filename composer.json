@@ -1,6 +1,6 @@
 {
     "name": "ici-brussels/bpost-addresses",
-    "description": "A php wrapper for Bpost addresses validation API",
+    "description": "A php class for Bpost addresses validation API",
     "require": {
         "guzzlehttp/guzzle": "^6.3"
     },
