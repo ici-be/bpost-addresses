@@ -1,5 +1,5 @@
 # bpost-addresses
-A php wrapper for Bpost addresses validation API
+A php class for Bpost addresses validation API
 
 *bpost* ([Belgian Post Group](https://www.bpost.be/)) provides an API to validate belgian address : <https://www.bpost.be/site/en/webservice-address>.
 
