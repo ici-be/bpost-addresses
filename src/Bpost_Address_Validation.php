@@ -85,7 +85,6 @@ class Bpost_Address_Validation
 
   public function getAddress_Unstructured(string $Address)
   {
-      $client         = new GuzzleHttp\Client();
       $request        = $this->createJson(false, $Address);
       $this->_address = $this->doRequest($request);
   }
