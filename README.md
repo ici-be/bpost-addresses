@@ -17,7 +17,10 @@ Use it via composer + packagist: https://packagist.org/packages/ici-brussels/bpo
 $bpost = new Bpost_Address_Validation();
 
 // Find relevant address according to input
+/* Option 1: Structured */
 $bpost->getAddress_Structured("Rue de la loix", "15", null, 1000, "Bruxelles");
+/* Option 2: Unstructured */
+$bpost->getAddress_Unstructured("rue de la loi 15, 1000 bruxelles");
 
 // get array with validated address
 $result = $bpost->getStructuredAddress();
