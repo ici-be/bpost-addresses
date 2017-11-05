@@ -95,6 +95,20 @@ class Bpost_Address_Validation
         { return $this->_address->NumberOfBoxes; }
       else { return null; };
   }
+  
+  public function getMailBoxes()
+  {
+      if(isset($this->_address->NumberOfBoxes))
+        { 
+        	for ($i=0; $i<$this->_address->NumberOfBoxes; $i++)
+        	{
+        		$MailBoxes[] = $this->_address->ServicePointBoxList->ServicePointBoxResult[$i]->BoxNumber;
+        	};
+        	sort($MailBoxes, SORT_NATURAL);
+        	return implode(", ", $MailBoxes);
+        }
+      else { return null; };
+  }
 
   public function getAllAddress()
   {
